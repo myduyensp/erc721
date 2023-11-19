@@ -1,28 +1,28 @@
 module.exports = {
   'env': {
     'es6': false,
-    'node': true,
+    'node': true
   },
   'parserOptions': {
     'sourceType': 'module',
-    'ecmaVersion': 8,
+    'ecmaVersion': 8
   },
   'rules': {
     'indent': [
       'error',
-      2,
+      2
     ],
     'linebreak-style': [
       'error',
-      'unix',
+      'unix'
     ],
     'quotes': [
       'error',
-      'single',
+      'single'
     ],
     'semi': [
       'error',
-      'always',
+      'always'
     ],
   },
 };
